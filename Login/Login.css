@@ -1,0 +1,56 @@
+
+/* Styles for the main container */
+.container {
+    max-width: 900px; /* 컨테이너의 최대 너비 */
+    margin: 0 auto; /* 컨테이너를 수평으로 중앙에 배치 */
+    padding: 40px; /* 컨테이너 내부의 패딩 */
+    margin-top: 10%; /* 상단 여백 10% */
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 20px; /* 폼 그룹 간의 간격을 위한 하단 여백 */
+}
+
+/* Styles for form group labels */
+.form-group label {
+    display: block; /* 레이블을 블록 요소로 표시 */
+    margin-bottom: 5px; /* 레이블 아래의 간격을 위한 하단 여백 */
+    font-weight: bold; /* 레이블의 텍스트를 굵게 */
+}
+
+/* Styles for form controls */
+.form-control {
+    width: 40%; /* 폼 컨트롤의 너비 */
+    padding: 8px; /* 폼 컨트롤 내부의 패딩 */
+    font-size: 16px; /* 폼 컨트롤의 글꼴 크기 */
+    border: 1px solid #ccc; /* 폼 컨트롤 주위의 테두리 */
+    border-radius: 4px; /* 둥근 모서리를 위한 테두리 반경 */
+}
+
+/* Styles for button groups */
+.btn-group {
+    margin-top: .0001px; /* 버튼 그룹 위의 간격을 위한 상단 여백 */
+    margin-bottom: 20px; /* 버튼 그룹 아래의 간격을 위한 하단 여백 */
+}
+
+/* Styles for buttons */
+.btn {
+    padding: 10px 20px; /* 버튼 내부의 패딩 */
+    font-size: 16px; /* 버튼의 글꼴 크기 */
+    border: none; /* 버튼에 테두리 없음 */
+    border-radius: 4px; /* 버튼의 둥근 모서리를 위한 테두리 반경 */
+    cursor: pointer; /* 버튼에 마우스를 올렸을 때의 커서 스타일 */
+}
+
+/* Styles for primary buttons */
+.btn-primary {
+    background-color: #007bff; /* 기본 버튼의 배경 색상 */
+    color: #fff; /* 기본 버튼의 텍스트 색상 */
+}
+
+/* Styles for danger (red) buttons */
+.btn-danger {
+    background-color: #dc3545; /* 위험 버튼의 배경 색상 */
+    color: #fff; /* 위험 버튼의 텍스트 색상 */
+}

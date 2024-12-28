@@ -1,0 +1,95 @@
+</details>
+
+
+<details>
+    <summary><font color="#007D79">Click here for a sample output of the <b>Sign-Up</b> form.</font></summary>
+    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-CD0322EN-Coursera/images/signUp_1.png">
+
+</details>
+
+5. Follow step 5 from exercise 1 to see the implementation of **Sign_Up.html** and **Sign_Up.css** file.
+
+4. <font color="#8A3FFC">**Take a screenshot**</font> of the Sign-up form layout and save it as **signup_form_layout.png**.
+
+
+::page{title="Exercise 3: Create the Login form layout"}
+
+
+1. Set up the HTML structure:
+    1. Create a folder named **Login** in the **grihf-frontend_capstone_starter_code** folder.
+    2. Create a new HTML file named **Login.html** in the **Login** folder and open it in a text editor in the lab environment.
+    3. Start with the basic HTML structure by adding the **<!DOCTYPE html>** declaration and <html> tags.
+
+    4. Create a `form` tag to add form elements including:
+        - Email
+        - Password
+    5. Set email and password as **Required** fields.
+
+<details>
+    <summary><font color="#0072C3">Click here for exemplar solution code for <b>Login.html</b>.</font></summary>
+    
+```html
+
+
+<!DOCTYPE html>
+<!-- The following code is a simple HTML document for a login page. -->
+<!-- Following code has been commented with appropriate comments for your reference. -->
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문서</title>
+    <!-- Link to external stylesheet Login.css -->
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <!-- Main container div for the page content -->
+    <div class="container">
+        <!-- Div for login grid layout -->
+        <div class="login-grid">
+          <!-- Div for login text -->
+          <div class="login-text">
+            <h2>로그인</h2>
+          </div>
+          <!-- Additional login text with a link to Sign Up page -->
+          <div class="login-text">
+            새로운 회원이신가요? <span><a href="../Sign_Up/Sign_Up.html" style="color: #2190FF;"> 여기에서 가입하세요</a></span>
+          </div>
+          <br />
+          <!-- Div for login form -->
+          <div class="login-form">
+            <form>
+              <!-- Form group for email input -->
+              <div class="form-group">
+                <label for="email">이메일</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="이메일을 입력하세요" aria-describedby="helpId" />
+              </div>
+              <!-- Form group for password input -->
+              <div class="form-group">
+                <label for="password">비밀번호</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="비밀번호를 입력하세요"
+                  aria-describedby="helpId"
+                />
+              </div>
+              <!-- Button group for login and reset buttons -->
+              <div class="btn-group">
+                <button type="submit" class="btn btn-primary mb-2 mr-1 waves-effect waves-light">로그인</button> 
+                <button type="reset" class="btn btn-danger mb-2 waves-effect waves-light">초기화</button>
+              </div>
+              <br />
+              <!-- Additional login text for 'Forgot Password' option -->
+              <div class="login-text">
+                비밀번호를 잊으셨나요?
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

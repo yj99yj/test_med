@@ -54,3 +54,8 @@
     background-color: #dc3545; /* 위험 버튼의 배경 색상 */
     color: #fff; /* 위험 버튼의 텍스트 색상 */
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+}

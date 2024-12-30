@@ -20,7 +20,7 @@ function App() {
 
           {/* 다양한 페이지를 위한 Routes 설정 */}
           <Routes>
-            {<Route path="/" element={<Landing_Page/>}/>}
+            {}
           </Routes>
         </BrowserRouter>
     </div>
